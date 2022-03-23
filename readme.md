@@ -6,6 +6,8 @@
     </p>
 </h3>
 
+> [Vídeo completo mostrando o site](https://www.linkedin.com/posts/beatriz-vidal-a2b114200_sql-html-github-activity-6912455922967613441-H3Du?utm_source=linkedin_share&utm_medium=member_desktop_web)
+
 # Sumário
 
 * [INTRODUÇÃO](#weekly-planner)

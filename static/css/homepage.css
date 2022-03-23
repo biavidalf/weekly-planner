@@ -1,0 +1,162 @@
+/* 
+===================================================
+                CONFIGURAÇÕES GERAIS
+===================================================
+*/
+/* Variáveis */
+:root{
+    --body-bg: #FFD19B;
+    --nav-bg: #FAA75C;
+    --lighter-bg: #FFEAD2;
+    --purple: #E1BBFF;
+    --lighter-purple: #e0c1fa;
+    --stronger-purple: #AD44FF;
+    --font-title: 'Abhaya Libre', serif;
+    --font-subtitle: 'Lato', sans-serif;
+    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--body-bg);
+    font-family: var(--font-subtitle);
+}
+a{
+    text-decoration: none;
+}
+#roxo{
+    background-color: var(--lighter-purple);
+    color: white;
+    padding-bottom: 45px;
+    border-radius: 0 0 0 300px;
+    margin-bottom: 20px;
+}
+
+/* 
+===================================================
+                NAV-BAR
+===================================================
+*/
+nav{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 1.2em;
+}
+nav .menu a{
+    color: white;
+    margin-left: 10px;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+nav .menu a:hover{
+    background-color: #D39AFF;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+nav #logo{
+    font-size: 1.4em;
+    font-family: 'Atma', cursive;;
+    color: white;
+}
+nav #create{
+    padding: 10px 17px;
+    background-color: white;
+    color: var(--stronger-purple);
+    border-radius: 6px;
+    margin-left: 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+nav #create:hover{
+    background-color: var(--stronger-purple);
+    color: white;
+}
+
+/* 
+===================================================
+                INTRODUÇÃO
+===================================================
+*/
+#intro{
+    width: 58%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#intro .texto .titulo{
+    font-family: var(--font-title);
+    display: inline-block;
+    font-size: 2.5em;
+    margin-top: 43px;
+    color: var(--stronger-purple);
+    font-weight: 800;
+}
+#intro .texto .subtitulo{
+    font-family: var(--font-subtitle);
+    font-size: 1.05em;
+    /* color: #D39AFF; */
+    color: var(--stronger-purple);
+    font-weight: 300;
+}
+
+#intro .vetor img{
+    width: 420px;
+    
+}
+
+/* 
+===================================================
+                DEMONSTRAÇÃO
+===================================================
+*/
+#demonstracao{
+    width: 65%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#demonstracao .explicacao{
+    width: 250px;
+}
+#demonstracao .explicacao p{
+    margin-bottom: 20px;
+}
+
+/* 
+===================================================
+                FOOTER
+===================================================
+*/
+footer{
+    width: 100%;
+    height: 100px;
+    margin-top: 40px;
+    padding: 40px 55px;
+    background-color: black;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer .name{
+    color: rgb(221, 107, 0);
+    font-family: 'Atma', cursive;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+footer .contact{
+    color: white;
+}
+footer a, footer a:visited{
+    color: white;
+    text-decoration: underline;
+}
+footer p{
+    font-size: 0.9em;
+}

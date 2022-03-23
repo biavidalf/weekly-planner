@@ -1,0 +1,472 @@
+/* 
+===================================================
+                OVERALL SETTINGS
+===================================================
+*/
+/* Variables */
+:root{
+--body-bg: #FFD19B;
+--nav-bg: #FAA75C;
+--lighter-bg: #FFEAD2;
+--purple: #E1BBFF;
+--font: 'Atma', cursive;
+--stronger-purple: #AD44FF;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--body-bg);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a, a:visited{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+/* 
+===================================================
+                NAVEGATION BAR
+===================================================
+*/
+nav{
+    width: 850px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px 60px;
+    border-radius: 30px;
+    font-family: 'Atma', cursive;
+    font-weight: 600;
+    background-color: var(--nav-bg);
+    text-align: left;
+    font-size: 1.3em;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 8px 8px;
+}
+a.icons{
+    float: right;
+    color: black;
+    margin-left: 40px;
+}
+.marker{
+    width: 120px;
+    line-height: 30px;
+    margin: 0 auto;
+    padding: 3px;
+    background-color: var(--purple);
+    text-align: center;
+    border-radius: 0 0 7px 7px;
+    font-family: 'Atma', cursive;
+    font-weight: 400;
+    font-size: 1.1em;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
+}
+
+
+
+/* 
+===================================================
+                HOMEPAGE
+===================================================
+*/
+#home{
+    width: 750px;
+    margin: 30px auto;
+}
+#home .container{
+    width: 730px;
+    height: 120px;
+    background-color: var(--lighter-bg);
+    margin: 30px auto;
+    padding: 20px 30px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
+}
+#home .container .topic{
+    width: 160px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 17px;
+    background-color: var(--nav-bg);
+    color: white;
+    float: left;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+#home .container p{
+    width: 400px;
+    float: right;
+    margin-top: 10px;
+}
+#home .images img{
+    display: block;
+    width: 700px;
+    margin: 0 auto;
+    border: 7px solid white;
+}
+
+/* START BUTTON */
+#home .start{
+    width: 500px;
+    height: 150px;
+    background-color: var(--lighter-bg);
+    margin: 30px auto;
+    padding: 20px 30px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 8px;
+    text-align: center;
+}
+#home .start a, #home .start a:visited{
+    padding: 15px 25px;
+    text-align: center;
+    background-color: var(--purple);
+    color: white;
+    border-radius: 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+#home .start a:hover{
+    text-decoration: underline;
+    background-color: rgb(177, 38, 231);
+}
+p.start-p{
+    width: 400px;
+    margin: 5px auto;
+}
+/* 
+===================================================
+                LOGIN | REGISTER
+===================================================
+*/
+#login-register{
+    width: 760px;
+    min-height: 335px;
+    margin: 30px auto;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: flex-start;
+}
+#login-register .container{
+    width: 43%;
+    min-height: 260px;
+    padding: 10px 20px;
+    background-color: var(--lighter-bg);
+    border-radius: 5px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+#login-register h3{
+    text-align: center;
+    width: 130px;
+    margin: 15px auto;
+    line-height: 35px;
+    background-color: #FAA75C;
+    border-radius: 4px;
+    color: white;
+}
+
+/* FORMS */
+.form-geral, .profile{
+    display: block;
+    padding: 10px 20px;
+    border:0;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin: 20px auto;
+}
+.botao{
+    display: block;
+    margin: 15px auto;
+    border: none;
+    padding: 10px 20px;
+    background-color: var(--purple);
+    color: white;
+    border: 2px solid var(--purple);
+    border-radius: 13px;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.botao:hover{
+    background-color: var(--stronger-purple);
+}
+input[type="file"] {
+    display: none;
+}
+.profile{
+    background-color: white;
+    width: 220px;
+    color: #636c72;
+    opacity: 1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+}
+
+
+
+/* 
+===================================================
+                WEEKLY PLANNER
+===================================================
+*/
+#planner{
+    width: 90%;
+    height: 470px;
+    margin: 15px auto;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+}
+#planner .container{
+    width: 21%;
+    height: 210px;
+    padding: 10px 20px;
+    background-color: var(--lighter-bg);
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#planner h4{
+    position: relative;
+    text-align: center;
+    width: 110px;
+    margin: 0 auto -35px auto;
+    bottom: 25px;
+    line-height: 35px;
+    font-size: 1.2em;
+    background-color: #FAA75C;
+    border-radius: 4px;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+#planner ul{
+    margin-top: -22px;
+    font-size: 0.95em;
+    padding: 8px 20px;
+}
+#planner li{
+    margin-top: 10px;
+    margin-left: -7px;
+    width: 115%;
+}
+#planner p{
+    display: inline;
+    width: 81%;
+    float: left;
+}
+
+
+/* ADD TASK */
+.add-task{
+    text-align: center;
+}
+#planner .add-task h4{
+    background-color: var(--purple);
+}
+.add-task form{
+    margin-top: 15px;
+}
+.add-task .texto, .add-task select{
+    display: block;
+    margin: 5px auto 10px auto;
+    padding: 8px 12px;
+    font-size: 0.85em;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.add-task button{
+    border: none;
+    background-color: rgb(219, 121, 0);
+    cursor: pointer;
+    width: 100px;
+    padding: 10px;
+    font-size: 0.9em;
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.add-task button:hover{
+    background-color: var(--purple);
+}
+
+
+/* EDIT TASK */
+.edit-task{
+    opacity: 0;
+    visibility: hidden;
+    background-color: white;
+    color: black;
+    width: 270px;
+    height: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 250px;
+    left: 540px;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.edit-task:target{
+    opacity: 1;
+    visibility: visible;
+}
+h3.rewrite{
+    position: relative;
+    top: 4px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+input[type='text'].rewrite{
+    display: block;
+    padding: 10px 15px;
+    border:0;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    margin: 20px auto;
+    background-color: rgb(238, 238, 238);
+}
+button.rewrite{
+    display: block;
+    padding: 10px 20px;
+    border:0;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: var(--purple);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 1px solid lightgray;
+}
+button.rewrite:hover{
+    opacity: 0.8;
+}
+
+
+/* ICONS */
+.fa-thumbtack{
+    margin-left: -20px;
+    margin-right: 13px;
+}
+.fa-eraser{
+    float: right;
+    cursor: pointer;
+}
+.fa-eraser:hover{
+    color: rgb(245, 48, 48);
+}
+.fa-pencil{
+    float: right;
+    cursor: pointer;
+    margin-right: 3px;
+}
+.fa-pencil:hover{
+    color: green;
+}
+.fa-save{
+    margin-right: 10px;
+}
+.close{
+    position: relative;
+    left: 240px;
+    top: 15px;
+    cursor: pointer;
+    display: inline;
+    padding: 3px;
+    font-size: 1.2em;
+}
+
+
+
+/* 
+===================================================
+                LOGOUT
+===================================================
+*/
+#logout .container{
+    display: block;
+    width: 310px;
+    height: 238px;
+    margin: 95px auto 70px auto;
+    background-color: var(--lighter-bg);
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#logout h2{
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+img.profile-pic{
+    width: 110px;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    bottom: 60px;
+}
+#logout ul{
+    list-style: none;
+    display: block;
+    text-align: center;
+    margin-top: -50px;
+}
+#logout .botao{
+    margin-top: 25px;
+    width: 130px;
+    line-height: 30px;
+    font-size: 1.2em;
+    background-color: var(--nav-bg);
+    border: none;
+}
+#logout .botao:hover{
+    background-color: var(--purple);
+    text-decoration: none;
+}
+/* ICONS */
+.fa-id-card, .fa-pencil-alt, .fa-clock{
+    margin-right: 5px;
+    font-size: 0.9em;
+}
+
+/* 
+===================================================
+                FOOTER
+===================================================
+*/
+footer{
+    width: 100%;
+    height: 100px;
+    margin-top: 40px;
+    padding: 40px 55px;
+    background-color: black;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer .name{
+    color: rgb(221, 107, 0);
+    font-family: 'Atma', cursive;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+footer .contact{
+    color: white;
+}
+footer a, footer a:visited{
+    color: white;
+    text-decoration: underline;
+}
+footer p{
+    font-size: 0.9em;
+}
